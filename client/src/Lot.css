@@ -1,0 +1,61 @@
+.Lot-title {
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.Lot {
+    font-size: large;
+    width: 30%;
+    min-width: 400px;
+    min-height: 200px;
+    height: 10%;
+    border-style: solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Lot-container {
+    padding: 10px;
+    display: flex;
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.Lot-info {
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+.Lot-about {
+    display: block;
+}
+
+.Lot-cost {
+    display: block;
+
+}
+
+.Lot-button {
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+}
+
+.Lot-img {
+    flex-grow: 1;
+    min-width: 60px;
+    min-height: 60px;
+    background: #ccc;
+}
+
+.test {
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 5px;
+    border-style: solid;
+    margin-left: 20px;
+}
